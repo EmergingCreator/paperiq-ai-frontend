@@ -2,9 +2,10 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://paperiq-ai-backend.onrender.com",
+  baseURL: "https://paperiq-ai-backend.onrender.com/api/", 
   withCredentials: true,
 });
+console.log(import.meta.env.VITE_API_URL)
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
 

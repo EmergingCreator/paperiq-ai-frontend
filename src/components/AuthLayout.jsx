@@ -54,7 +54,7 @@ export default function AuthLayout({ title, subtitle, children }) {
           <div className="relative mt-8">
             <div className="absolute inset-10 rounded-full bg-violet-600/20 blur-3xl" />
             <img
-              src="/images/login-illustration.png"
+              src="./login-illustration.png"
               alt="AI assistant helping with PDF documents"
               className="relative mx-auto max-h-[340px] w-full max-w-lg object-contain"
             />

@@ -26,7 +26,7 @@ export default function Footer() {
               className="inline-flex items-center rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
             >
               <img
-                src="/assets/logo.png"
+                src="./logo.png"
                 alt="PaprIQ"
                 className="h-14 w-auto max-w-[220px] object-contain transition duration-300 hover:scale-105"
               />

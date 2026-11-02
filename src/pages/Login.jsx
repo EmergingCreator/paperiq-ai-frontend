@@ -61,7 +61,7 @@ export default function Login() {
           {/* Logo */}
           <Link to="/" className="inline-flex w-fit items-center">
             <img
-              src="/assets/logo.png"
+              src="./logo.png"
               alt="PaprIQ"
               className="h-14 w-auto max-w-[210px] object-contain"
             />
@@ -113,7 +113,7 @@ export default function Login() {
             <div className="absolute h-64 w-64 rounded-full bg-violet-600/20 blur-[80px]" />
 
             <img
-              src="/assets/login-illustration.png"
+              src="./login-illustration.png"
               alt="PaprIQ AI PDF assistant illustration"
               className="relative z-10 mx-auto max-h-[340px] w-full max-w-lg object-contain drop-shadow-[0_20px_50px_rgba(124,58,237,0.2)]"
             />
@@ -135,7 +135,7 @@ export default function Login() {
               className="mb-10 flex justify-center lg:hidden"
             >
               <img
-                src="/assets/logo.png"
+                src="./logo.png"
                 alt="PaprIQ"
                 className="h-14 w-auto max-w-[190px] object-contain"
               />

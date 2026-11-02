@@ -2,10 +2,9 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.SERVER_API_URL || "/api", 
+  baseURL: "https://paperiq-ai-backend.onrender.com",
   withCredentials: true,
 });
-
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
 

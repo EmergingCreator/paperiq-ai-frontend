@@ -80,7 +80,7 @@ export default function SiteLayout({ children }) {
             className="group flex shrink-0 items-center rounded-xl outline-none focus-visible:ring-2 focus-visible:ring-violet-400"
           >
             <img
-              src="/assets/logo.png"
+              src="./../assets/logo.png"
               alt="PaprIQ"
               className="h-11 w-auto max-w-[170px] object-contain transition duration-300 group-hover:scale-105"
             />
